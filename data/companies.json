@@ -1,0 +1,514 @@
+{
+    "companies": [
+        {
+            "id": 0,
+            "linkName": "vanilla-kanela",
+            "name": "Βανίλια Κανέλλα",
+            "img": "https://app.wificatalogue.gr/images/443/logo/3ugBk9V49CNVcoknZLiVPSovwBqfpoCiaBzkdhEy.png",
+            "tables": 30,
+            "orderNum": 0,
+            "items": [
+                {
+                    "linkName": "coffees",
+                    "name": "coffees",
+                    "img": "https://app.wificatalogue.gr/images/2/categories/sm5PcEg8uf9Cyv4h3WW0Nbe2QMwf4qotEAeLyJsvuH.png",
+                    "coffees": [{
+                        "id": 0,
+                        "name": "coffees",
+                        "img": "https://app.wificatalogue.gr/images/2/categories/sm5PcEg8uf9Cyv4h3WW0Nbe2QMwf4qotEAeLyJsvuH.png",
+                        "coffees": [
+                            {
+                                "id": 0,
+                                "name": "Frappe",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "Classic Frappe",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 1,
+                                "name": "Espresso",
+                                "img": "https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg",
+                                "desc": "Classic Espresso",
+                                "price": 3,
+                                "count": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "Cappuccino",
+                                "img": "https://www.foodandwine.com/thmb/0cJWTx1_qsIJJE74hWLZ5rHWvsE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Cappuccino-FT-BLOG0523-d2eed8fcd48d464282176339908662f7.jpg",
+                                "desc": "Cappuccino",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Nescaffe",
+                                "img": "https://thumbs.dreamstime.com/b/%CF%83%CF%8D%CE%BD%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B5-%CF%84%CE%BF-%CF%86%CE%BB%CF%85%CF%84%CE%B6%CE%AC%CE%BD%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CE%B1%CF%83%CE%BF%CE%BB%CE%B9%CF%8E%CE%BD-%CE%BA%CE%B1%CF%86%CE%AD-%CF%84%CE%BF%CF%85-nescafe-124112978.jpg",
+                                "desc": "Nescaffe",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Ελληνικός",
+                                "img": "https://cdn.rizopouloscoffee.gr/www/ellinikos-kafes.jpg",
+                                "desc": "Ελληνικός",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 5,
+                                "name": "Φίλτρου",
+                                "img": "https://i0.wp.com/obliq.gr/wp-content/uploads/2023/05/Obliq_Sas_Koffie_10_Coffee_Filled_One_Cup_Filters_75g_B.webp?fit=1000%2C1000&ssl=1",
+                                "desc": "Φίλτρου",
+                                "price": 4.5,
+                                "count": 0
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "linkName": "fresh-juices-smoothies",
+                    "name": "Fresh juices-Smoothies",
+                    "img": "https://app.wificatalogue.gr/images/2/categories/smXlib5p2VJhyGisqIp13E8yHJcmxZPm5LSDka0nfh.png",
+                    "Fresh juices-Smoothies": [{
+                        "id": 0,
+                        "name": "fresh juices-Smoothies",
+                        "img": "https://app.wificatalogue.gr/images/2/categories/smXlib5p2VJhyGisqIp13E8yHJcmxZPm5LSDka0nfh.png",
+                        "fresh juices-smoothies": [
+                            {
+                                "id": 0,
+                                "name": "Πορτοκαλι",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "Πορτοκαλι",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 1,
+                                "name": "Ρόδι-Πορτοκαλι",
+                                "img": "https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg",
+                                "desc": "Ροδι-Πορτοκαλι",
+                                "price": 3,
+                                "count": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "Ανανάς - πράσινο - τζίντζερ - πορτοκάλι",
+                                "img": "https://www.foodandwine.com/thmb/0cJWTx1_qsIJJE74hWLZ5rHWvsE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Cappuccino-FT-BLOG0523-d2eed8fcd48d464282176339908662f7.jpg",
+                                "desc": "Ανανάς - πράσινο - τζίντζερ - πορτοκάλι",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Ροζ γκρέιπφρουτ - πορτοκάλι - καρότο",
+                                "img": "https://thumbs.dreamstime.com/b/%CF%83%CF%8D%CE%BD%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B5-%CF%84%CE%BF-%CF%86%CE%BB%CF%85%CF%84%CE%B6%CE%AC%CE%BD%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CE%B1%CF%83%CE%BF%CE%BB%CE%B9%CF%8E%CE%BD-%CE%BA%CE%B1%CF%86%CE%AD-%CF%84%CE%BF%CF%85-nescafe-124112978.jpg",
+                                "desc": "Ροζ γκρέιπφρουτ - πορτοκάλι - καρότο",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Φρούτα του δάσους",
+                                "img": "https://cdn.rizopouloscoffee.gr/www/ellinikos-kafes.jpg",
+                                "desc": "μέλι - μπανάνα - πορτοκάλι",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 5,
+                                "name": "Μπανάνα - πορτοκάλι - μάνγκο",
+                                "img": "https://i0.wp.com/obliq.gr/wp-content/uploads/2023/05/Obliq_Sas_Koffie_10_Coffee_Filled_One_Cup_Filters_75g_B.webp?fit=1000%2C1000&ssl=1",
+                                "desc": "Μπανάνα - πορτοκάλι - μάνγκο",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 6,
+                                "name": "Καρότο - μήλο - πορτοκάλι - τζίντζερ",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "Καρότο - μήλο - πορτοκάλι - τζίντζερ",
+                                "price": 3.5,
+                                "count": 0
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "linkName": "chocolates",
+                    "name": "Chocolates",
+                    "img": "https://app.wificatalogue.gr/images/2/categories/sm68e7URP3HRPTznXMw3iCVhTWckfSRanRdnnqsXsh.png",
+                    "Chocolates": [{
+                        "id": 0,
+                        "name": "chocolates",
+                        "img": "https://app.wificatalogue.gr/images/2/categories/sm68e7URP3HRPTznXMw3iCVhTWckfSRanRdnnqsXsh.png",
+                        "chocolates": [
+                            {
+                                "id": 0,
+                                "name": "Σοκολατα",
+                                "img": "https://app.wificatalogue.gr/images/443/items/smMY74IRkpUaY9DhVr4OfQ6DCwdHnvPhFzSqpv4ONw.png",
+                                "desc": "Σοκολατα",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 1,
+                                "name": "Chocolate with peanut butter, caramel & salt",
+                                "img": "https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg",
+                                "desc": "παχύρρευστη υφή φυστικοβούτυρου με αλατισμένη καραμέλα",
+                                "price": 3,
+                                "count": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "White chocolate with vanilla & oreo cookies",
+                                "img": "https://www.foodandwine.com/thmb/0cJWTx1_qsIJJE74hWLZ5rHWvsE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Cappuccino-FT-BLOG0523-d2eed8fcd48d464282176339908662f7.jpg",
+                                "desc": "λευκή σοκολάτα με βανίλια & κομμάτια μπισκότου oreo",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Cappuccino nocciola chocolate",
+                                "img": "https://thumbs.dreamstime.com/b/%CF%83%CF%8D%CE%BD%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B5-%CF%84%CE%BF-%CF%86%CE%BB%CF%85%CF%84%CE%B6%CE%AC%CE%BD%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CE%B1%CF%83%CE%BF%CE%BB%CE%B9%CF%8E%CE%BD-%CE%BA%CE%B1%CF%86%CE%AD-%CF%84%CE%BF%CF%85-nescafe-124112978.jpg",
+                                "desc": "καφές μαζί με σοκολάτα και άρωμα φουντουκιού",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Bueno - type chocolate",
+                                "img": "https://cdn.rizopouloscoffee.gr/www/ellinikos-kafes.jpg",
+                                "desc": "φουντουκένια απόλαυση ρευστής κρέμας Bueno με σοκολάτα",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 5,
+                                "name": "Lila - type strawberry & vanilla chocolate",
+                                "img": "https://i0.wp.com/obliq.gr/wp-content/uploads/2023/05/Obliq_Sas_Koffie_10_Coffee_Filled_One_Cup_Filters_75g_B.webp?fit=1000%2C1000&ssl=1",
+                                "desc": "φρουτώδης και αρωματική εκδοχή της σοκολάτας",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 6,
+                                "name": "Ginger chocolate & Indonesian cinnamon",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "άρωμα από Ασία με φυσικό ginger και φυσική κανέλα",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 7,
+                                "name": "Chocolate with bio coconut sugar",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "επιλεγμένες ποικιλίες από αφρικανικό κακάο με με βιολογική ζάχαρη καρύδας. Υγιεινή σοκολάτα με χαμηλό γλυκαιμικό δείκτη",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ruby chocolate",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "ροζ σοκολάτα με τριμμένη real Ruby. Φρουτένιο άρωμα με ωραία οξύτητα στο τελείωμα",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 9,
+                                "name": "Maya chocolate with chilly & spices",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "αυθεντική συνταγή των Maya’s με τσίλι και μπαχαρικά",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 10,
+                                "name": "Brioche chocolate & praline",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "ανατολίτικη γεύση με αυθεντικό μαχλέπι Ανατολής & πραλίνα φουντουκιού",
+                                "price": 3.5,
+                                "count": 0
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "linkName": "teas",
+                    "name": "Teas",
+                    "img": "https://app.wificatalogue.gr/images/2/categories/smITY5Bq36HDB22EGvgwq3OcZnM7macxue2OImdHh6.png",
+                    "Teas": [{
+                        "id": 0,
+                        "name": "teas",
+                        "img": "https://app.wificatalogue.gr/images/2/categories/smITY5Bq36HDB22EGvgwq3OcZnM7macxue2OImdHh6.png",
+                        "teas": [
+                            {
+                                "id": 0,
+                                "name": "Τσαι",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "Τσαι",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 1,
+                                "name": "Χαμομηλι",
+                                "img": "https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg",
+                                "desc": "Χαμομηλι",
+                                "price": 3,
+                                "count": 0
+                            },
+                            {
+                                "id": 2,
+                                "name": "Φασκομηλο",
+                                "img": "https://www.foodandwine.com/thmb/0cJWTx1_qsIJJE74hWLZ5rHWvsE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Cappuccino-FT-BLOG0523-d2eed8fcd48d464282176339908662f7.jpg",
+                                "desc": "Φασκομηλο",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 3,
+                                "name": "Τσαι του βουνου",
+                                "img": "https://thumbs.dreamstime.com/b/%CF%83%CF%8D%CE%BD%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B5-%CF%84%CE%BF-%CF%86%CE%BB%CF%85%CF%84%CE%B6%CE%AC%CE%BD%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CE%B1%CF%83%CE%BF%CE%BB%CE%B9%CF%8E%CE%BD-%CE%BA%CE%B1%CF%86%CE%AD-%CF%84%CE%BF%CF%85-nescafe-124112978.jpg",
+                                "desc": "Τσαι του βουνου",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 4,
+                                "name": "Τσάι πράσινο περγαμόντο",
+                                "img": "https://cdn.rizopouloscoffee.gr/www/ellinikos-kafes.jpg",
+                                "desc": "Τσάι πράσινο περγαμόντο",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 5,
+                                "name": "Τσάι μαύρο περγαμόντο",
+                                "img": "https://i0.wp.com/obliq.gr/wp-content/uploads/2023/05/Obliq_Sas_Koffie_10_Coffee_Filled_One_Cup_Filters_75g_B.webp?fit=1000%2C1000&ssl=1",
+                                "desc": "Τσάι μαύρο περγαμόντο",
+                                "price": 4.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 6,
+                                "name": "Pear cinnamon",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "κομμάτια μήλου, ιβίσκος, ανανάς, τριαντάφυλλο, κανέλα",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 7,
+                                "name": "Cloud Catcher",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "κομμάτια μήλου, καρύδα, αγριοκέρασο, cranberry",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 8,
+                                "name": "Grandma's garden",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "μήλο, ιβίσκος, φράουλα, raspberry, blackberry",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 9,
+                                "name": "Forest fruit",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "μαύρο τσάι, strawberry, raspberry, blackberry",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 10,
+                                "name": "Spring melody",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "πράσινο τσάι, πορτοκάλι, cat's foor, κομμάτια φράουλας",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 11,
+                                "name": "Green chai",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "πράσινο τσάι, πιπερόριζα, κανέλα, πιπέρι, γαρύφαλλο",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 12,
+                                "name": "Chai tea",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "μαύρο τσάι, πιπέρι, κανέλα, κάρδαμο, ginger, γαρύφαλλο",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 13,
+                                "name": "Rooibos bush fire",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "τσάι κόκκινο με στυμμένο χυμό πορτοκαλιού",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 14,
+                                "name": "Carol Singer",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "μαύρο τσάι, σοκολάτα, πορτοκάλι, αστεροειδείς, κανέλα",
+                                "price": 3.5,
+                                "count": 0
+                            },
+                            {
+                                "id": 15,
+                                "name": "Sencha cranberry",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "πράσινο τσάι, ροδοπέταλα, κομμάτια βατόμουρου, cranberry",
+                                "price": 3.5,
+                                "count": 0
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "linkName": "snacks-brioche",
+                    "name": "Snacks & Brioche",
+                    "img": "https://app.wificatalogue.gr/images/2/categories/smrGWfiRl5aJk2ftSRRwZ11cVUkYHkVRRWGKkJlDtN.png",
+                    "Snacks & Brioche": [
+                        { 
+                            "id": 0,
+                            "name": "snacks",
+                            "img": "https://app.wificatalogue.gr/images/443/items/smK2ha1dpMu6t1mzmXdcKAnDTX4BR8c3LuB6M7xZ0X.png",
+                            "snacks": [{
+                                "id": 0,
+                                "name": "Κουλούρι Θεσσαλονίκης",
+                                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                "desc": "Κουλούρι Θεσσαλονίκης",
+                                "price": 3.5,
+                                "count": 0
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Κουλούρι Θεσσαλονίκης με σταφίδες",
+                                    "img": "https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg",
+                                    "desc": "Κουλούρι Θεσσαλονίκης με σταφίδες",
+                                    "price": 3,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Μηλοπιτάκια χειροποίητα",
+                                    "img": "https://app.wificatalogue.gr/images/443/items/smHKY0JN1tkso1pgM0VDqj4T5FO1GmhZ5bbR4pfsU3.png",
+                                    "desc": "Μηλοπιτάκια χειροποίητα",
+                                    "price": 4.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Κουλούρι Θεσσαλονίκης γεμιστό",
+                                    "img": "https://app.wificatalogue.gr/images/443/items/smbK2BAmGWa4wi2gIlW9zalb7tH3oashJkuND5BASX.png",
+                                    "desc": "με γαλοπούλα, gouda, Philadelphia",
+                                    "price": 4.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Τυρόπιτα με φέτα και μέλι",
+                                    "img": "https://cdn.rizopouloscoffee.gr/www/ellinikos-kafes.jpg",
+                                    "desc": "Τυρόπιτα με φέτα και μέλι",
+                                    "price": 4.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Μίνι κρουασάν βουτύρου",
+                                    "img": "https://i0.wp.com/obliq.gr/wp-content/uploads/2023/05/Obliq_Sas_Koffie_10_Coffee_Filled_One_Cup_Filters_75g_B.webp?fit=1000%2C1000&ssl=1",
+                                    "desc": "Μίνι κρουασάν βουτύρου",
+                                    "price": 4.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 6,
+                                    "name": "Μίνι κρουασάν",
+                                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                    "desc": "Μίνι κρουασάν",
+                                    "price": 3.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Μπάρα δημητριακών",
+                                    "img": "https://app.wificatalogue.gr/images/443/items/smwZKmvF5XN398dLILZvXFlBfRQCEIjt3ufk0Km9ya.png",
+                                    "desc": "Μπάρα δημητριακών",
+                                    "price": 3.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 8,
+                                    "name": "Τόστ",
+                                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                    "desc": "Τόστ",
+                                    "price": 3.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 9,
+                                    "name": "Γιαούρτι",
+                                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                    "desc": "Γιαούρτι",
+                                    "price": 3.5,
+                                    "count": 0
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "name": "brioche",
+                            "img": "https://app.wificatalogue.gr/images/443/items/smK2ha1dpMu6t1mzmXdcKAnDTX4BR8c3LuB6M7xZ0X.png",
+                            "brioche": [
+                                {
+                                    "id": 0,
+                                    "name": "Πορτοκαλι",
+                                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Frapp%C3%A9.jpg/800px-Frapp%C3%A9.jpg",
+                                    "desc": "Πορτοκαλι",
+                                    "price": 3.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 1,
+                                    "name": "Ρόδι-Πορτοκαλι",
+                                    "img": "https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg",
+                                    "desc": "Ροδι-Πορτοκαλι",
+                                    "price": 3,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Ανανάς - πράσινο - τζίντζερ - πορτοκάλι",
+                                    "img": "https://www.foodandwine.com/thmb/0cJWTx1_qsIJJE74hWLZ5rHWvsE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Cappuccino-FT-BLOG0523-d2eed8fcd48d464282176339908662f7.jpg",
+                                    "desc": "Ανανάς - πράσινο - τζίντζερ - πορτοκάλι",
+                                    "price": 4.5,
+                                    "count": 0
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Ροζ γκρέιπφρουτ - πορτοκάλι - καρότο",
+                                    "img": "https://thumbs.dreamstime.com/b/%CF%83%CF%8D%CE%BD%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B5-%CF%84%CE%BF-%CF%86%CE%BB%CF%85%CF%84%CE%B6%CE%AC%CE%BD%CE%B9-%CF%84%CF%89%CE%BD-%CF%86%CE%B1%CF%83%CE%BF%CE%BB%CE%B9%CF%8E%CE%BD-%CE%BA%CE%B1%CF%86%CE%AD-%CF%84%CE%BF%CF%85-nescafe-124112978.jpg",
+                                    "desc": "Ροζ γκρέιπφρουτ - πορτοκάλι - καρότο",
+                                    "price": 4.5,
+                                    "count": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
