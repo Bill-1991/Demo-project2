@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Home from './Home'
@@ -159,7 +159,7 @@ function App() {
   if (loading) return <div className="loading"><p>Loading...</p></div>
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/*" element={<Home companies={data} />} />
           {
@@ -169,7 +169,7 @@ function App() {
 })
           }
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
