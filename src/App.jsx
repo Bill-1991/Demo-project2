@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Home from './Home'
@@ -163,9 +163,10 @@ function App() {
         <Routes>
           <Route exact path="/*" element={<Home companies={data} />} />
           {
-            data.map(company => 
+            data.map(company => {
+              console.log(company.linkName);
               <Route key={company.name} exact path={`${company.linkName}/*`} element={<Company searchBar={searchBar} modalItem={modalItem} handleSearchState={handleSearchState} handleSearchItems={handleSearchItems} handleSearchString={handleSearchString} searchString={searchString} handleChangeItemRoute={handleChangeItemRoute} handleSaveFile={handleSaveFile} company={company} searchItems={searchItems} chosenItems={chosenItems} handleChosenItems={handleChosenItems} order={order} handleOrder={handleOrder} tableNum={tableNum} handleCurTable={handleCurTable} handleDecreaseItems={handleDecreaseItems} handleIncreaseItems={handleIncreaseItems} handleDeleteItem={handleDelete} sendOrder={sendOrder} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />} />
-            )
+})
           }
         </Routes>
       </BrowserRouter>
