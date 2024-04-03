@@ -257,11 +257,10 @@
 }
 
 .order{
-  width: 30%;
-  position: fixed;
-  right: 0;
-  bottom: 10%;
-  min-height: fit-content !important;
+  width: 100vw !important;
+  position: fixed !important;
+  bottom: 0;
+  min-height: 100vh !important;
   height: fit-content !important;
   background-color: black;
   color: white;
@@ -274,36 +273,49 @@
   border-right: none;
   border-top: none;
   border-width: 3px;
-  border-color: white;
+  border-color: gold;
   max-height: fit-content;
-  height: 2.5rem;
+  height: 2rem;
   background-color: inherit;
-  color: white;
-  font-size: 1.5rem;
+  color: gold !important;
   font-weight: 700;
+}
+
+.order .close p{
+  color: gold;
 }
 
 .order .orderedItems{
-  display: grid;
-  width: 100%;
+  display: flex !important;
+  width: 100% !important;
   margin-top: 3rem;
   background-color: black;
+  height: 70vh;
+  flex-flow: row wrap;
+  justify-content: center;
+  position: relative;
+  overflow-y: auto;
 }
 
-.order #orderedItems .orderedItem{
-  width: 100%;
-  height: fit-content;
-  display: flex !important;
-  gap: 4rem;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 1.2rem;
+.order .orderedItems .orderedItem{
+  width: 30% !important;
+  height: 150px;
+  display: grid !important;
+  grid-template-rows: 40% 20% 40%;
+  flex-flow: column wrap !important;
+  font-size: 1rem;
   font-weight: 700;
   font-family: italic;
+  margin: 0 auto;
+  background-color: rgba(219, 172, 52, 0.7);
+  margin-top: 0.5rem;
 }
 
 .order #orderedItems .orderedItem p{
+  font-size: 1rem;
   color: white !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
 }
 
 .order #orderedItems .orderedItem .stuff{
@@ -311,6 +323,7 @@
   gap: 1rem;
   align-self: center;
   font-size: 1rem !important;
+  justify-self: center;
 }
 
 .order #orderedItems .orderedItem .quantity{
@@ -319,6 +332,7 @@
   gap: 1rem;
   font-size: 1.2rem;
   align-self: center;
+  justify-content: center;
 }
 
 .order #orderedItems .orderedItem .quantity p{
@@ -338,6 +352,7 @@
   display: flex;
   gap: 1rem;
   align-self: center;
+  justify-content: center;
 }
 
 .order #orderedItems .orderedItem .final button{
@@ -347,6 +362,7 @@
   color: white;
   font-size: 1rem;
   height: 80%;
+  justify-self: flex-end !important;
 }
 
 .basket{
@@ -389,15 +405,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 2px;
+  justify-self: center;
+  gap: 0.5rem;
+  width: 98%;
 }
 
 .tables .allTables button{
   margin: auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-color: white;
-  background-color: inherit;
+  background-color: rgba(219, 172, 52, 0.7);;
   color: white;
 }
 
@@ -523,7 +540,27 @@
   font-weight: 600;
 }
 
+@media only screen and (max-width: 1000px) {
+  .order #orderedItems .orderedItem p{
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .order #orderedItems .orderedItem{
+    width: 48% !important;
+  }
+
+  .order #orderedItems .orderedItem p{
+    font-size: 0.6rem;
+  }
+}
+
 @media only screen and (max-width: 576px) {
+
+  .order #orderedItems .orderedItem{
+    width: 75% !important;
+  }
 
   .navbar .logo-search-bar .logo-bar .lang button{
     width: 23px !important;
@@ -561,6 +598,12 @@
     width: 5rem;
     height: 5rem;
     border-radius: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .order #orderedItems .orderedItem{
+    width: 95% !important;
   }
 }
 

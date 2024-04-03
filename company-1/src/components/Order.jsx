@@ -14,11 +14,11 @@ function Order({ company, chosenItems, order, handleOrder, tableNum, handleCurTa
 
     return (
             chosenItems.length > 0 && order === true ?
-                <div id="order" className="order">
+                <Card id="order" className="order">
                     <button className="close" onClick={handleOrder}><p>X</p></button>
                     <div id="orderedItems" className="orderedItems">
                     {chosenItems.map(item => 
-                        <div key={item.name} className="orderedItem">
+                        <Card key={item.name} className="orderedItem">
                             <div className="stuff">
                                 <Card.Img src={item.img}></Card.Img>
                                 <p>{item.name}</p>
@@ -32,18 +32,19 @@ function Order({ company, chosenItems, order, handleOrder, tableNum, handleCurTa
                                 <p className="eachPrice">{item.price * item.count + "€"}</p>
                                 <button className="delete" onClick={() => handleDeleteItem(item)}>Delete</button>
                             </div>    
-                        </div>)}
+                        </Card>)}
                     </div>
                     <div className="tables">
                         {company.tables > 0 ? <p>Choose table:</p> : undefined}
                         <div className="allTables">{tables.map(table => <button key={table} onClick={() => handleCurTable(table)}>{table}</button>)}</div>
                         <button className="send" onClick={() => handleSaveFile(company)}>Send Order</button>
                     </div>
-                </div> : 
+                </Card> :
                 chosenItems.length > 0 && order === false ? 
                 <button id="basket" className="basket" onClick={handleOrder}>
                     <p>{chosenItems.length}</p>
-                </button> :
+                </button>
+                :
                 undefined
     )
 }

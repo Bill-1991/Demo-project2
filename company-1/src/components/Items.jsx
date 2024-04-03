@@ -38,7 +38,7 @@ function Items({ items, name, handleChosenItems, showModal, modalItem, handleSho
                 <strong>Lynx</strong>
             </div>
             {showModal ?
-             <ItemModal className="mod" handleChosenItems={handleChosenItems} showModal={showModal} item={modalItem} handleHideModal={handleHideModal} />
+             <ItemModal handleChosenItems={handleChosenItems} showModal={showModal} item={modalItem} handleHideModal={handleHideModal} />
               : undefined}
         </Container>
     )

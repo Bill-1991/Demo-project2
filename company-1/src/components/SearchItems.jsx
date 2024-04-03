@@ -28,7 +28,7 @@ function SearchItems({ searchItems, modalItem, showModal, handleShowModal, handl
                 )
             }
             {showModal ?
-             <ItemModal handleChosenItems={handleChosenItems} showModal={showModal} item={modalItem} handleHideModal={handleHideModal} />
+             <ItemModal company={company} handleChosenItems={handleChosenItems} showModal={showModal} item={modalItem} handleHideModal={handleHideModal} />
               :
                undefined}
         </Container>

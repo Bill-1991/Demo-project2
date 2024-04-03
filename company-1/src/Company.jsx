@@ -17,17 +17,18 @@ function Company({ modalItem, showModal, handleShowModal, handleHideModal, searc
     
     <div id={company.name} className='company'>
         <NavBar path={path} handleChangeItemRoute={handleChangeItemRoute} handleSearchState={handleSearchState} handleSearchString={handleSearchString} searchBar={searchBar} handleSearchItems={handleSearchItems} searchString={searchString} company={company} items={company.items}  />
-        <Routes>
-        <Route exact path="/" element={ !searchString ? <CompanyHome company={company} /> : <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal}/>} />
-        {
-          company.items.map(item => 
-            <Route key={item.name} exact path={`/${item.linkName}`} element={ !searchString ? 
-            <Items items={item[item.name]} name={item.name} chosenItems={chosenItems} handleChosenItems={handleChosenItems} modalItem={modalItem} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} /> :
-            <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />
-          } />
-          )
-        }
-        </Routes>
+        
+          <Routes>
+          <Route exact path="/" element={ !searchString ? <CompanyHome company={company} /> : <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal}/>} />
+          {
+            company.items.map(item => 
+              <Route key={item.name} exact path={`/${item.linkName}`} element={ !searchString ? 
+              <Items company={company} items={item[item.name]} name={item.name} chosenItems={chosenItems} handleChosenItems={handleChosenItems} modalItem={modalItem} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} /> :
+              <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />
+            } />
+            )
+          }
+          </Routes>
         <Order company={company} chosenItems={chosenItems} order={order} handleOrder={handleOrder} tableNum={tableNum} handleCurTable={handleCurTable} handleDecreaseItems={handleDecreaseItems} handleIncreaseItems={handleIncreaseItems} handleDeleteItem={handleDeleteItem} sendOrder={sendOrder} handleSaveFile={handleSaveFile} />
     </div>
   )
