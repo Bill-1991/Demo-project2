@@ -22,8 +22,13 @@ function Company({ modalItem, showModal, handleShowModal, handleHideModal, searc
           <Route exact path="/" element={ !searchString ? <CompanyHome company={company} /> : <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal}/>} />
           {
             company.items.map(item => 
-              <Route key={item.name} exact path={`/${item.linkName}`} element={ !searchString ? 
-              <Items company={company} items={item[item.name]} name={item.name} chosenItems={chosenItems} handleChosenItems={handleChosenItems} modalItem={modalItem} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} /> :
+              <Route key={item.name} exact path={`/${item.linkName}`} element={ !searchString && !order ? 
+              <Items company={company} items={item[item.name]} name={item.name} chosenItems={chosenItems} handleChosenItems={handleChosenItems} modalItem={modalItem} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} /> 
+              :
+              !searchString && order ? undefined
+              :
+              searchString && order ? undefined
+              :
               <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />
             } />
             )

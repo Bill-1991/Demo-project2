@@ -2,7 +2,7 @@ import React from "react";
 import '../../../company-1/src/App.css';
 import { Card } from "react-bootstrap";
 
-function Order({ company, chosenItems, order, handleOrder, tableNum, handleCurTable, handleIncreaseItems, handleDecreaseItems, sendOrder, handleDeleteItem, handleSaveFile }) {
+function Order({ company, chosenItems, order, handleOrder, handleCurTable, handleIncreaseItems, handleDecreaseItems, sendOrder, handleDeleteItem, handleSaveFile }) {
     let tables = []
     if (company.tables > 0)
     {
@@ -13,7 +13,7 @@ function Order({ company, chosenItems, order, handleOrder, tableNum, handleCurTa
     }
 
     return (
-            chosenItems.length > 0 && order === true ?
+            chosenItems.length && order === true ?
                 <Card id="order" className="order">
                     <button className="close" onClick={handleOrder}><p>X</p></button>
                     <div id="orderedItems" className="orderedItems">

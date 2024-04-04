@@ -139,7 +139,7 @@ function App() {
       let searchedItems = [];
       item[item.name].map(obj => {
         obj[obj.name.toLowerCase()].map(name => {
-          if (name.name.toLowerCase().startsWith(query) && query) {
+          if (name.name.toLowerCase().startsWith(query.toLowerCase()) && query) {
             searchedItems.push(name)
           };
         });

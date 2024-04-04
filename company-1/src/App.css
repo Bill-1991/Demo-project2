@@ -200,7 +200,8 @@
   cursor: pointer;
   justify-self: center;
   min-height: 200px;
-  min-width: 300px;
+  min-width: 100%;
+  height: fit-content;
   width: 100%;
   margin-top: 20px;
 }
@@ -258,10 +259,10 @@
 
 .order{
   width: 100vw !important;
-  position: fixed !important;
+  position: fixed;
   bottom: 0;
   min-height: 100vh !important;
-  height: fit-content !important;
+  height: 100vh !important;
   background-color: black;
   color: white;
 }
@@ -290,7 +291,7 @@
   width: 100% !important;
   margin-top: 3rem;
   background-color: black;
-  height: 70vh;
+  height: 50vh;
   flex-flow: row wrap;
   justify-content: center;
   position: relative;
@@ -307,8 +308,9 @@
   font-weight: 700;
   font-family: italic;
   margin: 0 auto;
-  background-color: rgba(219, 172, 52, 0.7);
+  background-color: inherit;
   margin-top: 0.5rem;
+  border-width: 1.5px !important;
 }
 
 .order #orderedItems .orderedItem p{
@@ -382,17 +384,23 @@
 
 .tables{
   display: grid;
-  grid-template-rows: 20% 60% 15%;
+  grid-template-rows: 10% 70% 15%;
+  gap: 2.5%;
   width: 100%;
   justify-content: center;
-  height: fit-content;
+  height: 50vh;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 900;
 }
 
+.tables p{
+  color: white;
+  margin-top: 2rem;
+}
+
 .tables .send{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   justify-self: center;
   border: none;
   background-color: inherit;

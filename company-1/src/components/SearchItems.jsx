@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '../App.css'
 import ItemModal from './ItemModal'
 
-function SearchItems({ searchItems, modalItem, showModal, handleShowModal, handleChosenItems, handleHideModal }) {
+function SearchItems({ searchItems, company, modalItem, showModal, handleShowModal, handleChosenItems, handleHideModal }) {
     return (
         <Container fluid className='searchItems'>
             {
