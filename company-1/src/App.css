@@ -384,7 +384,7 @@
 
 .tables{
   display: grid;
-  grid-template-rows: 10% 70% 15%;
+  grid-template-rows: 15% 70% 10%;
   gap: 2.5%;
   width: 100%;
   justify-content: center;
@@ -396,7 +396,8 @@
 
 .tables p{
   color: white;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .tables .send{
