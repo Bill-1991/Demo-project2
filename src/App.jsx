@@ -76,9 +76,7 @@ function App() {
       item.count++
       setChosenItems([...chosenItems, item])
     }
-    if (!chosenItems.length) {
-      setOrder(false)
-    } 
+    if (!chosenItems.length) setOrder(false)
   }
 
   const handleOrder = () => {
@@ -125,7 +123,13 @@ function App() {
         filteredItems.push(obj)
       }
     })
+    if (!filteredItems.length) {
+      setChosenItems([])
+      setOrder(false)
+    }
     setChosenItems(filteredItems)
+
+    console.log(order, chosenItems.length)
   }
 
   const sendOrder = () => {

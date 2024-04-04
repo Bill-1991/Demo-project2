@@ -25,15 +25,17 @@ function Company({ modalItem, showModal, handleShowModal, handleHideModal, searc
               <Route key={item.name} exact path={`/${item.linkName}`} element={ !searchString && !order ? 
               <Items company={company} items={item[item.name]} name={item.name} chosenItems={chosenItems} handleChosenItems={handleChosenItems} modalItem={modalItem} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} /> 
               :
-              !searchString && order ? undefined
-              :
-              searchString && order ? undefined
-              :
+              searchString && !order
+              ?
               <SearchItems searchItems={searchItems} showModal={showModal} handleChosenItems={handleChosenItems} modalItem={modalItem} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />
+              :
+              undefined
             } />
             )
           }
           </Routes>
+          <p>{chosenItems.length}</p>
+          <p>{`${order}`}</p>
         <Order company={company} chosenItems={chosenItems} order={order} handleOrder={handleOrder} tableNum={tableNum} handleCurTable={handleCurTable} handleDecreaseItems={handleDecreaseItems} handleIncreaseItems={handleIncreaseItems} handleDeleteItem={handleDeleteItem} sendOrder={sendOrder} handleSaveFile={handleSaveFile} />
     </div>
   )
