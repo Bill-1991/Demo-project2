@@ -191,7 +191,7 @@
 .items .outer-container .upper .inner-container .item,
 .searchItems .item{
   display: grid;
-  grid-template-rows: 50% 30% 20%;
+  grid-template-rows: 20% 80%;
   position: relative;
   justify-self: center !important;
   border-width: 0.2rem;
@@ -210,8 +210,8 @@
 .items .outer-container .upper .inner-container .item .price,
 .searchItems .desc,
 .searchItems .price{
-  justify-self: end;
-  font-size: 11px;
+  justify-self: center;
+  font-size: 14px;
 }
 
 .items .outer-container .upper .row-title,
@@ -234,7 +234,14 @@
 .items .outer-container .upper .inner-container .item .item-head,
 .searchItems .item-head{
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 40% 60%;
+}
+
+.items .outer-container .upper .inner-container .item .item-head .body,
+.searchItems .item-head .body{
+  display: grid;
+  grid-template-rows: 80% 20%;
+  justify-content: center;
 }
 
 .items .outer-container .upper .inner-container .item .item-head p,
@@ -246,8 +253,8 @@
 
 .items .outer-container .upper .inner-container .item img,
 .searchItems .item .item-head img{
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  height: 110px;
   border-radius: 100%;
   justify-self: center;
   align-self: center;
@@ -531,7 +538,7 @@
 
 .modalFooter p{
   font-size: 18px;
-  color: black;
+  color: brown;
   font-weight: 900;
   font-family: 'Courier New', Courier, monospace;
   justify-self: flex-start !important;
@@ -539,14 +546,15 @@
 
 .modalFooter button{
   justify-self: flex-end;
-  border-width: 4px;
+  border-width: 2px;
   border-radius: 5%;
-  border-color: gold;
-  background-color: black;
+  border-color: black;
+  background-color: brown;
   color: white;
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
+  box-shadow: 3px 7px 3px black;
 }
 
 @media only screen and (max-width: 1000px) {

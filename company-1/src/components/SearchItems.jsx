@@ -15,12 +15,14 @@ function SearchItems({ searchItems, company, modalItem, showModal, handleShowMod
                             {item.items.map(obj => 
                                 <Col xs={12} sm={12} md={6} lg={4} key={obj.name} className='column'>
                                     <Card onClick={() => handleShowModal(obj)} className='item'>
+                                    <p className='title'>{obj.name}</p>
                                     <div className='item-head'>
                                         <img src={obj.img} />
-                                        <p className='title'>{obj.name}</p>
+                                        <div className="body">
+                                            <p className='desc'>{obj.desc}</p>
+                                            <p className='price'>{obj.price + '€'}</p>
+                                        </div>
                                     </div>
-                                    <p className='desc'>{obj.desc}</p>
-                                    <p className='price'>{obj.price + '€'}</p>
                                 </Card>
                                 </Col>)}
                         </Row>

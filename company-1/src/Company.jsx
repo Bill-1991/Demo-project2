@@ -34,8 +34,6 @@ function Company({ modalItem, showModal, handleShowModal, handleHideModal, searc
             )
           }
           </Routes>
-          <p>{chosenItems.length}</p>
-          <p>{`${order}`}</p>
         <Order company={company} chosenItems={chosenItems} order={order} handleOrder={handleOrder} tableNum={tableNum} handleCurTable={handleCurTable} handleDecreaseItems={handleDecreaseItems} handleIncreaseItems={handleIncreaseItems} handleDeleteItem={handleDeleteItem} sendOrder={sendOrder} handleSaveFile={handleSaveFile} />
     </div>
   )
