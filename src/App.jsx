@@ -23,7 +23,7 @@ function App() {
     async function fetchData() {
 
       try{
-      const res = await fetch("https://companies-co8z.onrender.com/companies");
+      const res = await fetch("http://localhost:3000/companies");
       const getData = await res.json();
       setData(getData);
       setLoading(false);   
@@ -128,13 +128,11 @@ function App() {
       setOrder(false)
     }
     setChosenItems(filteredItems)
-
-    console.log(order, chosenItems.length)
   }
 
-  const sendOrder = () => {
+  /*const sendOrder = () => {
     console.log("Ready")
-  }
+  }*/
 
   function handleSearchItems(query, company) {
     let wholeSearchedItems = []
@@ -168,7 +166,7 @@ function App() {
           <Route exact path="/*" element={<Home companies={data} />} />
           {
             data.map(company =>
-              <Route key={company.name} exact path={`${company.linkName}/*`} element={<Company searchBar={searchBar} modalItem={modalItem} handleSearchState={handleSearchState} handleSearchItems={handleSearchItems} handleSearchString={handleSearchString} searchString={searchString} handleChangeItemRoute={handleChangeItemRoute} handleSaveFile={handleSaveFile} company={company} searchItems={searchItems} chosenItems={chosenItems} handleChosenItems={handleChosenItems} order={order} handleOrder={handleOrder} tableNum={tableNum} handleCurTable={handleCurTable} handleDecreaseItems={handleDecreaseItems} handleIncreaseItems={handleIncreaseItems} handleDeleteItem={handleDelete} sendOrder={sendOrder} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />} />
+              <Route key={company.name} exact path={`${company.linkName}/*`} element={<Company searchBar={searchBar} modalItem={modalItem} handleSearchState={handleSearchState} handleSearchItems={handleSearchItems} handleSearchString={handleSearchString} searchString={searchString} handleChangeItemRoute={handleChangeItemRoute} handleSaveFile={handleSaveFile} company={company} searchItems={searchItems} chosenItems={chosenItems} handleChosenItems={handleChosenItems} order={order} handleOrder={handleOrder} tableNum={tableNum} handleCurTable={handleCurTable} handleDecreaseItems={handleDecreaseItems} handleIncreaseItems={handleIncreaseItems} handleDeleteItem={handleDelete} showModal={showModal} handleShowModal={handleShowModal} handleHideModal={handleHideModal} />} />
             )
           }
         </Routes>

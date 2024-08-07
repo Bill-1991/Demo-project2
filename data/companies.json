@@ -2,8 +2,8 @@
     "companies": [
         {
             "id": 0,
-            "linkName": "vanilla-kanela",
-            "name": "Βανίλια Κανέλλα",
+            "linkName": "company1",
+            "name": "example-company",
             "img": "https://app.wificatalogue.gr/images/443/logo/3ugBk9V49CNVcoknZLiVPSovwBqfpoCiaBzkdhEy.png",
             "tables": 30,
             "orderNum": 0,
