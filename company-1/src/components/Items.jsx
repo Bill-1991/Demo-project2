@@ -35,10 +35,7 @@ function Items({ items, name, handleChosenItems, showModal, modalItem, handleSho
                     </div>
                 )}
             </div>
-            <div className='creator'>
-                <p>Powered By </p>
-                <strong>Lynx</strong>
-            </div>
+            
             {showModal ?
              <ItemModal handleChosenItems={handleChosenItems} showModal={showModal} item={modalItem} handleHideModal={handleHideModal} />
               : undefined}
