@@ -7,6 +7,6 @@ const port = process.env.PORT || 3001;
 server.use(middlewares);
 server.use(router);
 
-server.listen("3001", function() {
+server.listen(port, function() {
     console.log("Running")
 });
