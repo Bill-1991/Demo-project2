@@ -23,7 +23,7 @@ function App() {
     async function fetchData() {
 
       try{
-      const res = await fetch("http://localhost:3000/companies");
+      const res = await fetch("https://demo-project2-back.onrender.com/companies");
       const getData = await res.json();
       setData(getData);
       setLoading(false);   
