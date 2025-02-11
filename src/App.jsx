@@ -158,7 +158,9 @@ function App() {
     setSearchItems(wholeSearchedItems)
   }
     
-  if (loading) return <div className="loading"><p>Loading...</p></div>
+  if (loading) return <div className="loading">
+    <p>Server may take up to 50secs to wake up and serve content...</p>
+    </div>
   return (
     <>
       <BrowserRouter>
